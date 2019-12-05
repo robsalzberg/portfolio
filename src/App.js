@@ -1,13 +1,10 @@
 import React from 'react';
 import './App.css';
-import Nav from './nav';
 
 function App() {
   return (
       <div className="Container">
-      <div className="Nav">
-          <Nav />
-      </div>
+      
       <div className="App">
         <header className="App-header">
           <div id='stars'></div>
@@ -22,9 +19,9 @@ function App() {
               WEB DEVELOPER
             </span>
           </div>
+          <a href="#about" class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""> </a> 
         </header>
       </div>
-      
     </div>
 
   );
