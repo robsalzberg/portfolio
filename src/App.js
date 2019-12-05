@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Nav from './nav';
 
@@ -11,21 +10,23 @@ function App() {
       </div>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            This will be Rob Salzberg's Portfolio.
-          </p>
-          <a
-            className="App-link"
-            href="https://github.com/robsalzberg"
-            target="_blank"
-              rel="noopener noreferrer"
-          >
-            Rob Salzberg's GitHub
-          </a>
+          <div id='stars'></div>
+          <div id='stars2'></div>
+          <div id='stars3'></div>
+          <div id='title'>
+            <span>
+              ROB SALZBERG
+            </span>
+            <br></br>
+            <span>
+              WEB DEVELOPER
+            </span>
+          </div>
         </header>
       </div>
+      
     </div>
+
   );
 }
 
